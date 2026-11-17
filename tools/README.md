@@ -10,5 +10,6 @@ need the game client.
 | [`interface-numbers.json`](interface-numbers.json) | The flavor/interface data from docs/04 in machine-readable form — the same table the scaffolder uses. |
 | [`.luacheckrc`](.luacheckrc) | A luacheck configuration for WoW Lua 5.1: the right standard, the bedrock globals, and the warnings that matter. Copy to your addon repo root. |
 | [`vscode/`](vscode/) | VS Code recommendations (extensions), settings (Lua 5.1 runtime), and code snippets for the patterns in docs/12. |
+| [`build-ai-bundle.py`](build-ai-bundle.py) | Regenerates the repo-root `manifest.json` (machine-readable file map + reading order) and `ai-bundle.md` (the whole knowledge base as one file) so AI tools that download the repo — ChatGPT included — can ingest it locally. Run after any content change. |
 
 Usage examples are in each file's header.

@@ -1,0 +1,299 @@
+{
+  "repo": "wowdev",
+  "generated": "2026-11-17",
+  "purpose": "WowDev \u2014 World of Warcraft Addon Development Knowledge Base",
+  "startHere": [
+    "AGENTS.md",
+    "README.md"
+  ],
+  "readingOrder": [
+    "README.md",
+    "AGENTS.md",
+    "SOURCES.md",
+    "docs/01-addon-anatomy.md",
+    "docs/02-lua-in-wow.md",
+    "docs/03-api-events-and-widgets.md",
+    "docs/04-flavors-and-interface-numbers.md",
+    "docs/05-libraries-and-frameworks.md",
+    "docs/06-tools-and-editors.md",
+    "docs/07-textures-and-art.md",
+    "docs/08-testing-and-debugging.md",
+    "docs/09-packaging-and-distribution.md",
+    "docs/10-communities-and-learning.md",
+    "docs/11-ai-assisted-development.md",
+    "docs/12-patterns-cookbook.md",
+    "docs/13-performance-and-memory.md",
+    "docs/14-localization.md",
+    "reference/common-events.md",
+    "reference/interface-numbers.md",
+    "reference/library-directory.md",
+    "checklists/addon-checklist.md",
+    "checklists/debugging-checklist.md",
+    "checklists/multi-flavor-port-checklist.md",
+    "templates/README.md",
+    "examples/README.md",
+    "tools/README.md"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 4623,
+      "summary": "AGENTS.md \u2014 Instructions for AI agents writing WoW addons"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9719,
+      "summary": "WowDev \u2014 World of Warcraft Addon Development Knowledge Base"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 11900,
+      "summary": "SOURCES.md \u2014 The seed list, verified"
+    },
+    {
+      "path": "checklists/addon-checklist.md",
+      "bytes": 2638,
+      "summary": "Addon Release Checklist"
+    },
+    {
+      "path": "checklists/debugging-checklist.md",
+      "bytes": 2463,
+      "summary": "Debugging Checklist"
+    },
+    {
+      "path": "checklists/multi-flavor-port-checklist.md",
+      "bytes": 2129,
+      "summary": "Multi-Flavor Port Checklist"
+    },
+    {
+      "path": "docs/01-addon-anatomy.md",
+      "bytes": 3968,
+      "summary": "01 \u2014 Addon Anatomy"
+    },
+    {
+      "path": "docs/02-lua-in-wow.md",
+      "bytes": 3428,
+      "summary": "02 \u2014 Lua in WoW"
+    },
+    {
+      "path": "docs/03-api-events-and-widgets.md",
+      "bytes": 4459,
+      "summary": "03 \u2014 The API, Events, and Widgets"
+    },
+    {
+      "path": "docs/04-flavors-and-interface-numbers.md",
+      "bytes": 3238,
+      "summary": "04 \u2014 Flavors and Interface Numbers"
+    },
+    {
+      "path": "docs/05-libraries-and-frameworks.md",
+      "bytes": 6027,
+      "summary": "05 \u2014 Libraries and Frameworks"
+    },
+    {
+      "path": "docs/06-tools-and-editors.md",
+      "bytes": 5072,
+      "summary": "06 \u2014 Tools and Editors"
+    },
+    {
+      "path": "docs/07-textures-and-art.md",
+      "bytes": 2377,
+      "summary": "07 \u2014 Textures and Art"
+    },
+    {
+      "path": "docs/08-testing-and-debugging.md",
+      "bytes": 2930,
+      "summary": "08 \u2014 Testing and Debugging"
+    },
+    {
+      "path": "docs/09-packaging-and-distribution.md",
+      "bytes": 4380,
+      "summary": "09 \u2014 Packaging and Distribution"
+    },
+    {
+      "path": "docs/10-communities-and-learning.md",
+      "bytes": 4357,
+      "summary": "10 \u2014 Communities and Learning"
+    },
+    {
+      "path": "docs/11-ai-assisted-development.md",
+      "bytes": 3447,
+      "summary": "11 \u2014 AI-Assisted Addon Development"
+    },
+    {
+      "path": "docs/12-patterns-cookbook.md",
+      "bytes": 3383,
+      "summary": "12 \u2014 Patterns Cookbook"
+    },
+    {
+      "path": "docs/13-performance-and-memory.md",
+      "bytes": 2911,
+      "summary": "13 \u2014 Performance and Memory"
+    },
+    {
+      "path": "docs/14-localization.md",
+      "bytes": 2302,
+      "summary": "14 \u2014 Localization"
+    },
+    {
+      "path": "examples/01-hello-world/HelloWorld.lua",
+      "bytes": 832,
+      "summary": ""
+    },
+    {
+      "path": "examples/01-hello-world/HelloWorld.toc",
+      "bytes": 212,
+      "summary": ""
+    },
+    {
+      "path": "examples/01-hello-world/README.md",
+      "bytes": 965,
+      "summary": "01 \u2014 Hello World"
+    },
+    {
+      "path": "examples/02-session-tracker/README.md",
+      "bytes": 1107,
+      "summary": "02 \u2014 Session Tracker"
+    },
+    {
+      "path": "examples/02-session-tracker/SessionTracker.lua",
+      "bytes": 1486,
+      "summary": ""
+    },
+    {
+      "path": "examples/02-session-tracker/SessionTracker.toc",
+      "bytes": 239,
+      "summary": ""
+    },
+    {
+      "path": "examples/03-movable-frame/MovableFrame.lua",
+      "bytes": 2021,
+      "summary": ""
+    },
+    {
+      "path": "examples/03-movable-frame/MovableFrame.toc",
+      "bytes": 207,
+      "summary": ""
+    },
+    {
+      "path": "examples/03-movable-frame/README.md",
+      "bytes": 1034,
+      "summary": "03 \u2014 Movable Frame"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 1257,
+      "summary": "Worked Examples"
+    },
+    {
+      "path": "reference/common-events.md",
+      "bytes": 2286,
+      "summary": "Reference \u2014 Common Events (starter subset)"
+    },
+    {
+      "path": "reference/interface-numbers.md",
+      "bytes": 1667,
+      "summary": "Reference \u2014 Interface Numbers"
+    },
+    {
+      "path": "reference/library-directory.md",
+      "bytes": 2144,
+      "summary": "Reference \u2014 Library Directory"
+    },
+    {
+      "path": "templates/README.md",
+      "bytes": 1541,
+      "summary": "Templates"
+    },
+    {
+      "path": "templates/ace3/.pkgmeta",
+      "bytes": 870,
+      "summary": ""
+    },
+    {
+      "path": "templates/ace3/AceSkeleton.toc",
+      "bytes": 232,
+      "summary": ""
+    },
+    {
+      "path": "templates/ace3/Core.lua",
+      "bytes": 1385,
+      "summary": ""
+    },
+    {
+      "path": "templates/ace3/embeds.xml",
+      "bytes": 702,
+      "summary": ""
+    },
+    {
+      "path": "templates/github-workflows/luacheck.yml",
+      "bytes": 547,
+      "summary": ""
+    },
+    {
+      "path": "templates/github-workflows/release.yml",
+      "bytes": 1113,
+      "summary": ""
+    },
+    {
+      "path": "templates/minimal/Core.lua",
+      "bytes": 1699,
+      "summary": ""
+    },
+    {
+      "path": "templates/minimal/Minimal.toc",
+      "bytes": 183,
+      "summary": ""
+    },
+    {
+      "path": "tools/.luacheckrc",
+      "bytes": 1279,
+      "summary": ""
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 1467,
+      "summary": "Tools"
+    },
+    {
+      "path": "tools/build-ai-bundle.py",
+      "bytes": 4415,
+      "summary": ""
+    },
+    {
+      "path": "tools/check-addon.py",
+      "bytes": 4729,
+      "summary": ""
+    },
+    {
+      "path": "tools/interface-numbers.json",
+      "bytes": 1379,
+      "summary": ""
+    },
+    {
+      "path": "tools/new-addon.ps1",
+      "bytes": 2475,
+      "summary": ""
+    },
+    {
+      "path": "tools/new-addon.sh",
+      "bytes": 2459,
+      "summary": ""
+    },
+    {
+      "path": "tools/vscode/extensions.json",
+      "bytes": 68,
+      "summary": ""
+    },
+    {
+      "path": "tools/vscode/settings.json",
+      "bytes": 507,
+      "summary": ""
+    },
+    {
+      "path": "tools/vscode/wow-addon.code-snippets",
+      "bytes": 1593,
+      "summary": ""
+    }
+  ]
+}
