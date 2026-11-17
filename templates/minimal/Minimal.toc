@@ -1,0 +1,8 @@
+## Interface: {{INTERFACE}}
+## Title: {{TITLE}}
+## Notes: {{TITLE}} — a minimal addon skeleton.
+## Author: Your Name
+## Version: 1.0.0
+## SavedVariables: {{ADDON_NAME}}DB
+
+Core.lua

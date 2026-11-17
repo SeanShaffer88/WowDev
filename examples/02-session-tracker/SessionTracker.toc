@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: Session Tracker
+## Notes: Counts deaths and level-ups this session and all-time, per character.
+## Author: WowDev examples
+## Version: 1.0.0
+## SavedVariablesPerCharacter: SessionTrackerDB
+
+SessionTracker.lua

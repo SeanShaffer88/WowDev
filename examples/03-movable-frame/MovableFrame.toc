@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: Movable Frame
+## Notes: A draggable panel whose position is saved and restored.
+## Author: WowDev examples
+## Version: 1.0.0
+## SavedVariables: MovableFrameDB
+
+MovableFrame.lua

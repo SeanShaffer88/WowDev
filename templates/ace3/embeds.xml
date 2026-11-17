@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<!-- Load order matters: LibStub first, then CallbackHandler, then
+	     the Ace3 modules in dependency order. Keep this file in sync
+	     with .pkgmeta: every module listed there needs a line here. -->
+	<Script file="Libs\LibStub\LibStub.lua"/>
+	<Script file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua"/>
+	<Script file="Libs\AceAddon-3.0\AceAddon-3.0.lua"/>
+	<Script file="Libs\AceEvent-3.0\AceEvent-3.0.lua"/>
+	<Script file="Libs\AceDB-3.0\AceDB-3.0.lua"/>
+	<Script file="Libs\AceConsole-3.0\AceConsole-3.0.lua"/>
+</Ui>

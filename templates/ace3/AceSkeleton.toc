@@ -1,0 +1,11 @@
+## Interface: {{INTERFACE}}
+## Title: {{TITLE}}
+## Notes: {{TITLE}} — an Ace3 addon skeleton.
+## Author: Your Name
+## Version: 1.0.0
+## SavedVariables: {{ADDON_NAME}}DB
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+
+embeds.xml
+Core.lua

@@ -8,9 +8,12 @@ API and WoW's Lua 5.1 dialect, the client flavors and their interface
 numbers (Retail, Classic Era, the progression Classic clients, and WoW
 Forever), libraries and frameworks, editors and tools, testing,
 packaging and distribution, and the communities where addon developers
-actually get help. Every resource named here was verified against its
-live source on 2026-11-17; anything that could not be verified is
-marked **Unverified** rather than repeated as fact.
+actually get help — plus the working material itself: copy-and-start
+**templates**, three complete **example addons**, a scaffolder and a
+static validator in **tools**, and quick **reference** tables. Every
+external resource named here was verified against its live source on
+2026-11-17; anything that could not be verified is marked
+**Unverified** rather than repeated as fact.
 
 ## The ground-truth hierarchy
 
@@ -61,7 +64,11 @@ addon. Full treatment: [`docs/04-flavors-and-interface-numbers.md`](docs/04-flav
    wow-ui-source branch.
 5. Prefer a library over hand-rolling
    ([`docs/05-libraries-and-frameworks.md`](docs/05-libraries-and-frameworks.md)).
-6. Test per [`docs/08-testing-and-debugging.md`](docs/08-testing-and-debugging.md);
+6. Start from a template or example instead of a blank page:
+   [`templates/`](templates/) (minimal + Ace3 skeletons, release
+   workflows), [`examples/`](examples/) (three complete addons), and
+   the scaffolder in [`tools/`](tools/).
+7. Test per [`docs/08-testing-and-debugging.md`](docs/08-testing-and-debugging.md);
    package and release per
    [`docs/09-packaging-and-distribution.md`](docs/09-packaging-and-distribution.md)
    and [`checklists/addon-checklist.md`](checklists/addon-checklist.md).
@@ -81,7 +88,20 @@ addon. Full treatment: [`docs/04-flavors-and-interface-numbers.md`](docs/04-flav
 | [09-packaging-and-distribution.md](docs/09-packaging-and-distribution.md) | BigWigs packager (.pkgmeta, release.sh, GitHub Action), distribution sites, Blizzard's 8-rule addon policy |
 | [10-communities-and-learning.md](docs/10-communities-and-learning.md) | WoWUIDev Discord, forums (with their correct names), Reddit, tutorials, videos, and the three books with correct editions |
 | [11-ai-assisted-development.md](docs/11-ai-assisted-development.md) | AI skill packs (Xerrion, liuwu0623), the ground-truth discipline, and how AI help goes wrong on WoW code |
+| [12-patterns-cookbook.md](docs/12-patterns-cookbook.md) | The recurring code shapes: namespace, event frame, SavedVariables defaults merge, slash commands, throttled OnUpdate, frame-sliced work, the localization table |
+| [13-performance-and-memory.md](docs/13-performance-and-memory.md) | The frame budget, events over polling, bucket events, measuring memory/CPU, SavedVariables hygiene |
+| [14-localization.md](docs/14-localization.md) | The L-table pattern, AceLocale-3.0, locale file layout, rules that keep translations working |
 | [SOURCES.md](SOURCES.md) | The original resource list this repo was built from, entry by entry, with verification status and corrections |
+
+## Working material
+
+| Folder | What it holds |
+|---|---|
+| [templates/](templates/) | Minimal and Ace3 addon skeletons (`.toc`, core Lua, `embeds.xml`, `.pkgmeta`) plus GitHub workflows for the BigWigs packager and luacheck |
+| [examples/](examples/) | Three complete, loadable addons: HelloWorld (slash command + SavedVariables), SessionTracker (event frame, per-character data), MovableFrame (BackdropTemplate, drag, saved position) |
+| [tools/](tools/) | `new-addon` scaffolder (bash + PowerShell), `check-addon.py` static validator, `interface-numbers.json`, a WoW `.luacheckrc`, and VS Code settings/extensions/snippets |
+| [reference/](reference/) | Quick tables: [interface numbers](reference/interface-numbers.md), [common events](reference/common-events.md), [library directory](reference/library-directory.md) |
+| [checklists/](checklists/) | [Addon release checklist](checklists/addon-checklist.md), [debugging checklist](checklists/debugging-checklist.md), [multi-flavor port checklist](checklists/multi-flavor-port-checklist.md) |
 
 ## Corrections this repo makes to the list it was built from
 

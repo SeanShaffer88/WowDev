@@ -1,0 +1,14 @@
+{
+  // WoW runs a subset of Lua 5.1 (docs/02-lua-in-wow.md). Pin the
+  // language server to 5.1 so it stops suggesting 5.2+ APIs.
+  "Lua.runtime.version": "Lua 5.1",
+  // WoW API knowledge comes from Ketho's WoW API extension
+  // (ketho.wow-api) — see docs/06-tools-and-editors.md. Septh's
+  // WoW Bundle is archived and its API data targets WoW 8.0.1;
+  // do not rely on it for current clients.
+  "files.associations": {
+    "*.toc": "ini"
+  },
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4
+}

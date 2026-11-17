@@ -1,0 +1,34 @@
+# Release with the BigWigs packager whenever a version tag is pushed.
+# Copy to .github/workflows/release.yml in your addon repo.
+# Docs: docs/09-packaging-and-distribution.md
+#
+# Before first use:
+#  - Set your project IDs in the addon's .toc (## X-Curse-Project-ID,
+#    ## X-WoWI-ID, ## X-Wago-ID) or pass them as args below
+#    (-p CurseForge, -w WoWInterface, -a Wago).
+#  - Add the upload tokens as repository secrets. Confirm the exact
+#    secret names against the packager README (they have changed over
+#    the project's life): commonly CF_API_KEY, WOWI_API_TOKEN,
+#    WAGO_API_TOKEN, and GITHUB_OAUTH for GitHub releases.
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Package and release
+        uses: BigWigsMods/packager@v2
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
+          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}

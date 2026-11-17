@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: Hello World
+## Notes: The smallest real addon: a slash command and a persistent counter.
+## Author: WowDev examples
+## Version: 1.0.0
+## SavedVariables: HelloWorldDB
+
+HelloWorld.lua
